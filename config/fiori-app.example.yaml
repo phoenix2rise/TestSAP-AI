@@ -1,0 +1,16 @@
+sap:
+  system_id: "TST"
+  base_url: "https://sap.example.com"
+  client: "100"
+  language: "EN"
+launchpad:
+  site: "FioriLaunchpad"
+  group: "Purchasing"
+  tile: "Manage Purchase Orders"
+app:
+  semantic_object: "PurchaseOrder"
+  action: "manage"
+  route_hint: "PurchaseOrder-manage"
+credentials:
+  username_env: "SAP_USERNAME"
+  password_env: "SAP_PASSWORD"
