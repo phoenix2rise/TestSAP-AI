@@ -1,0 +1,20 @@
+sap:
+  system_id: "GTS"
+  base_url: "https://gts.example.com"
+  client: "100"
+  language: "EN"
+launchpad:
+  site: "FioriLaunchpad"
+  group: "Trade Compliance"
+  tile: "Release Sanctioned Documents"
+app:
+  semantic_object: "SanctionedDocument"
+  action: "release"
+  route_hint: "SanctionedDocument-release"
+credentials:
+  username_env: "SAP_GTS_USERNAME"
+  password_env: "SAP_GTS_PASSWORD"
+scenario:
+  status_filter: "Ready for Release"
+  sample_document_id: "SDOC-100045"
+  release_reason: "Compliance approval"

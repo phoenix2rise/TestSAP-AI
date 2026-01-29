@@ -10,9 +10,10 @@ TestSAP-AI is a starter repository for building AI-assisted test automation tail
 
 ## Quick start
 
-1. Copy `config/fiori-app.example.yaml` to `config/fiori-app.yaml` and fill in your system details.
-2. Review the prompts under `prompts/` to align with your testing standards.
-3. Use the templates under `templates/` as a starting point for new test cases.
+1. Copy `config/gts-release-sanctioned-docs.example.yaml` to `config/gts-release-sanctioned-docs.yaml` and fill in your SAP GTS system details.
+2. Run the baseline test case in `tests/gts-release-sanctioned-docs.md` for the Release of sanctioned documents flow.
+3. Review the prompts under `prompts/` to align with your testing standards.
+4. Use the templates under `templates/` as a starting point for new test cases.
 
 ## Repository structure
 
@@ -25,6 +26,7 @@ TestSAP-AI is a starter repository for building AI-assisted test automation tail
 
 ## Next steps
 
+- Expand the SAP GTS flow details in `docs/gts-release-sanctioned-docs.md` as your process evolves.
 - Add your test runner of choice (e.g., UI5, WebdriverIO, Playwright) to `scripts/`.
 - Wire CI using your preferred pipeline configuration.
 - Expand prompts and templates as you learn.
